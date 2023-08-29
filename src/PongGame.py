@@ -75,7 +75,7 @@ def paddle_b_down():
 # Now its time to create the remainder design for the pong game
 # first lets draw the score on the screen, we do this by basically making a pen
 
-pen = turtle.Turtle() # creating the pen here, say way we created the paddle
+pen = turtle.Turtle() # creating the pen here, same way we created the paddle
 pen.speed(0) # remember this is to make sure that the speed of the turtle is quickly
 pen.color("white") # when the pen is drawing/writting, the color will be white
 pen.penup() # We want the pen up, so when the pen is moving, we wont end up drawing a line
